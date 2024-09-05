@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Recipe Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .section-title {
+            margin-top: 20px;
+            color: #555;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Chocolate Chip Cookies</h1>
+        <img src="data:image/jpeg;base64,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" alt="Chocolate Chip Cookies">
+
+        <h2 class="section-title">Ingredients</h2>
+        <ul>
+            <li>1 cup unsalted butter, melted</li>
+            <li>1 cup brown sugar, packed</li>
+            <li>1/2 cup granulated sugar</li>
+            <li>2 large eggs</li>
+            <li>2 tsp vanilla extract</li>
+            <li>3 cups all-purpose flour</li>
+            <li>1 tsp baking soda</li>
+            <li>1/2 tsp salt</li>
+            <li>2 cups semi-sweet chocolate chips</li>
+        </ul>
+
+        <h2 class="section-title">Instructions</h2>
+        <ol>
+            <li>Preheat your oven to 350°F (175°C).</li>
+            <li>In a large bowl, mix together the melted butter, brown sugar, and granulated sugar until smooth.</li>
+            <li>Add the eggs one at a time, then stir in the vanilla extract.</li>
+            <li>In another bowl, whisk together the flour, baking soda, and salt.</li>
+            <li>Gradually add the dry ingredients to the wet mixture and stir until combined.</li>
+            <li>Fold in the chocolate chips.</li>
+            <li>Drop spoonfuls of dough onto a baking sheet lined with parchment paper.</li>
+            <li>Bake for 10-12 minutes, or until the edges are golden brown.</li>
+            <li>Allow cookies to cool on the baking sheet for a few minutes before transferring them to a wire rack.</li>
+            <li>Enjoy your delicious homemade chocolate chip cookies!</li>
+        </ol>
+
+    </div>
+
+</body>
+</html>
